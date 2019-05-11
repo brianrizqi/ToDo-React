@@ -4,6 +4,9 @@
     "slug": "TodoReact",
     "privacy": "public",
     "sdkVersion": "32.0.0",
+    "android": {
+      "package": "id.onestep.todo"
+    },
     "platforms": [
       "ios",
       "android"
@@ -23,7 +26,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname"
     }
   }
 }
